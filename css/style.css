@@ -1,0 +1,65 @@
+/* 主界面 */
+#bg {
+  width: 600px;
+  height: 900px;
+  display: inline-block;
+  background-image: url('../images/places/hs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#clock {
+  float: left;
+  position: relative;
+  top: 20px;
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color: white;
+}
+
+#left {
+  float: left;
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+#right {
+  float: left;
+  margin-left: 20px;
+}
+
+#clockDate {
+  display: block;
+}
+
+#clockTime {
+  display: block;
+  height: 50px;
+  font-size: 40px;
+}
+
+#character {
+  width: 600px;
+  height: 900px;
+  background-image: url('../images/characters/mako/xf/1/1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 设置 */
+#settings {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 616px;
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+}
+
+.title {
+  margin: 14px;
+}

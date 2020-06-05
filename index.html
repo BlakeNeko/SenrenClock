@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>千恋时计</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="main">
+    <div id="bg">
+      <div id="clock">
+        <div id="left">
+          <span id="clockDate"></span>
+          <span id="clockWeekday"></span>
+        </div>
+        <div id="right">
+          <span id="clockTime"></span>
+        </div>
+      </div>
+      <div id="character"></div>
+    </div>
+    <div id="settings">
+      <div id="setPlace">
+        <div class="title">地点</div>
+        <input type="radio" name="place" id="dc" value="dc">道场
+        <input type="radio" name="place" id="hs" value="hs" checked>和室
+        <input type="radio" name="place" id="lg" value="lg">旅馆
+        <input type="radio" name="place" id="ss" value="ss">神社
+        <input type="radio" name="place" id="st" value="st">食堂
+        <input type="radio" name="place" id="yc" value="yc">浴场
+      </div>
+      <div id="setCharacter">
+        <div class="title">角色</div>
+        <input type="radio" name="character" id="yoshino" value="yoshino">芳乃
+        <input type="radio" name="character" id="mako" value="mako" checked>茉子
+        <input type="radio" name="character" id="murasame" value="murasame">丛雨
+        <input type="radio" name="character" id="lena" value="lena">蕾娜
+      </div>
+      <div id="setPose">
+        <div class="title">姿势</div>
+        <input type="radio" name="pose" id="1" value="1" checked>姿势1
+        <input type="radio" name="pose" id="2" value="2">姿势2
+        <input type="radio" name="pose" id="3" value="3">姿势3
+      </div>
+      <div id="setCloth">
+        <div class="title">服装</div>
+        <input type="radio" name="cloth" id="xf" value="xf" checked>校服
+        <input type="radio" name="cloth" id="sf" value="sf">私服
+        <input type="radio" name="cloth" id="wnf" value="wnf">巫女服
+        <input type="radio" name="cloth" id="rzf" value="rzf">忍者服
+        <input type="radio" name="cloth" id="hf" value="hf">和服
+        <input type="radio" name="cloth" id="yy" value="yy">浴衣
+      </div>
+    </div>
+  </div>
+  <script src="./js/senrenClock.js"></script>
+</body>
+
+</html>
